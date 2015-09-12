@@ -2,16 +2,18 @@
 //  main.m
 //  LinkedList
 //
-//  Created by Jordan White on 11/4/14.
-//  Copyright (c) 2014 Option White. All rights reserved.
+//  Created by Jordan White on 9/12/15.
+//  Copyright (c) 2015 Two Beards and Fro. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "Node.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+   
+    Node *newNode = [[Node alloc]init];
+    
+    [newNode print];
+    
     return 0;
 }
